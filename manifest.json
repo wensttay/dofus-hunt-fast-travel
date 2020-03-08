@@ -5,10 +5,11 @@
     "description": "Provide a button on Dafus Hunt Webside to copy the position with /travel command.",
     "content_scripts": [
         {
+            "css": [ "css/toggle-switch.css" ],
             "matches": [
                 "https://dofus-map.com/*/hunt"
             ],
-            "js": ["fasttravel.js"]
+            "js": ["js/fasttravel.js"]
         }
     ],
 
