@@ -9,10 +9,12 @@ document.getElementById('hintName').addEventListener('change', function() {
     button.addEventListener('click', function() {
         var cords = document.getElementById('secondLine')
             .innerHTML
+            .split("[").join("")
+            .split("]").join("")
             .split("<span>").join("")
             .split("</span>").join("")
             .split(" ").join("")
-            .split(";").join(",");
+            .split(";").join(" ");
 
         navigator.clipboard.writeText("/travel " + cords);
     });
