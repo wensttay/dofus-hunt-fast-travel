@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Dofus Hunt Fast Travel",
     "version": "1.0",
-    "description": "Provide a button on Dafus Hunt Webside to copy the position with /travel command.",
+    "description": "Provide a fast way to copy position on Dafus Hunt Webside with the /travel command.",
     "content_scripts": [
         {
             "css": [ "css/toggle-switch.css" ],
@@ -13,13 +13,20 @@
         }
     ],
 
-    "page_action": {
+    "browser_action": {
         "default_icon": {                
             "16": "images/icon16x16.png",        
             "32": "images/icon32x32.png",         
             "96": "images/icon96x96.png"          
         },
         "default_title" : "Dofus Hunt Fast Travel"
-    }
+    },
+
+    "background":{
+        "persistent": false,
+        "scripts": ["js/background.js"]
+    },
+
+    "permissions": ["tabs"]
 }
 
