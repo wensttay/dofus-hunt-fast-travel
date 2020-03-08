@@ -6,7 +6,7 @@
     "content_scripts": [
         {
             "matches": [
-                "https://dofus-map.com/pt/hunt"
+                "https://dofus-map.com/*/hunt"
             ],
             "js": ["fasttravel.js"]
         }
