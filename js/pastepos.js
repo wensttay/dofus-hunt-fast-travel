@@ -3,14 +3,18 @@ var x = document.getElementById('x');
 var y = document.getElementById('y');
 
 x.addEventListener('paste', (event) => {
-    event.preventDefault();
-    updatePos(getPos((event.clipboardData || window.clipboardData).getData('text'))); 
+    if (switchInput.checked) {
+        event.preventDefault();
+        updatePos(getPos((event.clipboardData || window.clipboardData).getData('text'))); 
+    }
 });
 
 
 y.addEventListener('paste', (event) => {
-    event.preventDefault();
-    updatePos(getPos((event.clipboardData || window.clipboardData).getData('text'))); 
+    if (switchInput.checked) {
+        event.preventDefault();
+        updatePos(getPos((event.clipboardData || window.clipboardData).getData('text'))); 
+    }
 });
 
 function updatePos(xy){

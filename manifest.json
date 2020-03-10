@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Dofus Hunt Tools",
-    "version": "1.1",
+    "version": "1.1.1",
     "description": "Provide some functions to the Dafus Hunt Webside thats make the hunt more easy",
     "content_scripts": [
         {
