@@ -8,9 +8,9 @@ var yNext = y.nextSibling;
 var yDiv = document.createElement('div');
 yDiv.appendChild(y);
 
-addTooltip(xDiv, "You can paste the [x,y] format");
-addTooltip(yDiv, "You can paste the [x,y] format");
-addTooltip(document.getElementById('switch'), "Turn On/Off Dofus Hunt Tools");
+addTooltip(xDiv, chrome.i18n.getMessage("pastepos"));
+addTooltip(yDiv, chrome.i18n.getMessage("pastepos"));
+addTooltip(document.getElementById('switch'), chrome.i18n.getMessage("switch"));
 
 xNext.parentNode.insertBefore(xDiv, xNext);
 yNext.parentNode.insertBefore(yDiv, yNext);

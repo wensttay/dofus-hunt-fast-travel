@@ -1,8 +1,10 @@
 {
     "manifest_version": 2,
-    "name": "Dofus Hunt Tools",
-    "version": "1.2",
-    "description": "Provide some functions to the Dafus Hunt Webside thats make the hunt more easy",
+    "version": "1.3",
+    "name": "__MSG_appName__",
+    "description": "__MSG_appDesc__",
+    "default_locale": "pt_BR",
+
     "content_scripts": [
         {
             "css": [

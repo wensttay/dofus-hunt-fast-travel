@@ -1,0 +1,18 @@
+{
+    "appName": {
+        "message": "Dofus Hunt Tools",
+        "description": "The app name"
+    },
+    "appDesc": {
+        "message": "Provide some functions to the Dafus Hunt Webside thats make the hunt more easy and fast", 
+        "description": "The app description"
+    },
+    "pastepos": {
+        "message": "You can copy and paste by [x,y] format", 
+        "description": "Messages showed when hover an input location"
+    },
+    "switch": {
+        "message": "Active/Disable Dofus Hunt Tools", 
+        "description": "Message showed when hove the app's switch"
+    }
+}

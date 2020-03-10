@@ -4,7 +4,7 @@ switchDiv.classList.add('switch-box');
 var switchLabel = document.createElement('label');
 switchLabel.id = 'switch';
 switchLabel.classList.add('switch');
-switchLabel.title = 'Active/Disable Fast Travel';
+switchLabel.title = chrome.i18n.getMessage("switch");
 
 var switchInput = document.createElement('input');
 switchInput.type = 'checkbox';
