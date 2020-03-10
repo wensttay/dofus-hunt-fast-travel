@@ -28,7 +28,7 @@ document.getElementById('hintName').addEventListener('change', function() {
 // The extension doesn't have access to page variables
 // [TODO]: Search a better way to do that
 function copyToClipboard() {
-    var cords = document.getElementById('secondLine')
+    let cords = document.getElementById('secondLine')
         .innerHTML
         .split("[").join("")
         .split("]").join("")
@@ -39,4 +39,3 @@ function copyToClipboard() {
 
     navigator.clipboard.writeText("/travel " + cords);
 };
-

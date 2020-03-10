@@ -9,7 +9,10 @@
             "matches": [
                 "https://dofus-map.com/*/hunt"
             ],
-            "js": ["js/fasttravel.js"]
+            "js": [
+                "js/fasttravel.js",
+                "js/pasteposs.js"
+            ]
         }
     ],
 
