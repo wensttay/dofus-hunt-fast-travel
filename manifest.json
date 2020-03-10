@@ -11,7 +11,7 @@
             ],
             "js": [
                 "js/fasttravel.js",
-                "js/pasteposs.js"
+                "js/pastepos.js"
             ]
         }
     ],

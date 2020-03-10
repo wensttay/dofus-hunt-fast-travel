@@ -1,4 +1,4 @@
-var possRegex = new RegExp(/\[-?([1-9]|[1-9][0-9]|[1-1][0-0][0-0]),-?([1-9]|[1-9][0-9]|[1-1][0-0][0-0])\]/g);
+var possRegex = new RegExp(/\[-?([1-1][0-0][0-0]|[1-9][0-9]|[1-9]),-?([1-1][0-0][0-0]|[1-9][0-9]|[1-9])\]/g);
 var x = document.getElementById('x');
 var y = document.getElementById('y');
 
@@ -23,8 +23,8 @@ function getPoss(text) {
 
     if (isPoss(text)) {
         let xy = getMatch(text, possRegex, 0);
-        let x = getMatch(xy, /-?([1-9]|[1-9][0-9]|[1-1][0-0][0-0])/g, 0);
-        let y = getMatch(xy, /-?([1-9]|[1-9][0-9]|[1-1][0-0][0-0])/g, 1);
+        let x = getMatch(xy, /-?([1-1][0-0][0-0]|[1-9][0-9]|[1-9])/g, 0);
+        let y = getMatch(xy, /-?([1-1][0-0][0-0]|[1-9][0-9]|[1-9])/g, 1);
         return [x, y];
     }
 }
