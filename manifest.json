@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Dofus Hunt Fast Travel",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Provide a fast way to copy position on Dafus Hunt Webside with the /travel command.",
     "content_scripts": [
         {
