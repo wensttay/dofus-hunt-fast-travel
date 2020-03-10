@@ -8,7 +8,7 @@
         "description": "A descrição do aplicativo"
     },
     "pastepos": {
-        "message": "Você pode copiar e colar no formato [x,y]", 
+        "message": "Você pode colar no formato [x,y]", 
         "description": "Mensagem mostrada quando o mouse se posicionar em cima dos inputs de posição"
     },
     "switch": {

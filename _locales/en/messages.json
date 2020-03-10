@@ -8,7 +8,7 @@
         "description": "The app description"
     },
     "pastepos": {
-        "message": "You can copy and paste by [x,y] format", 
+        "message": "You can paste on [x,y] format", 
         "description": "Messages showed when hover an input location"
     },
     "switch": {
