@@ -1,4 +1,4 @@
-var posRegex = new RegExp(/\[-?([1-1][0-0][0-0]|[1-9][0-9]|[1-9]),-?([1-1][0-0][0-0]|[1-9][0-9]|[1-9])\]/g);
+var posRegex = new RegExp(/\[-?([1-9][0-9][0-9][0-9]|[1-9][0-9][0-9]|[1-9][0-9]|[1-9]),-?([1-9][0-9][0-9][0-9]|[1-9][0-9][0-9]|[1-9][0-9]|[1-9])\]/g);
 var x = document.getElementById('x');
 var y = document.getElementById('y');
 
@@ -18,8 +18,10 @@ y.addEventListener('paste', (event) => {
 });
 
 function updatePos(xy){
-    x.value = xy[0];
-    y.value = xy[1];
+    if (xy != undefined) {
+        x.value = xy[0];
+        y.value = xy[1];
+    }
 }
 
 function getPos(text) {
@@ -27,8 +29,8 @@ function getPos(text) {
 
     if (isPos(text)) {
         let xy = getMatch(text, posRegex, 0);
-        let x = getMatch(xy, /-?([1-1][0-0][0-0]|[1-9][0-9]|[1-9])/g, 0);
-        let y = getMatch(xy, /-?([1-1][0-0][0-0]|[1-9][0-9]|[1-9])/g, 1);
+        let x = getMatch(xy, /-?([1-9][0-9][0-9][0-9]|[1-9][0-9][0-9]|[1-9][0-9]|[1-9])/g, 0);
+        let y = getMatch(xy, /-?([1-9][0-9][0-9][0-9]|[1-9][0-9][0-9]|[1-9][0-9]|[1-9])/g, 1);
         return [x, y];
     }
 }
