@@ -13,6 +13,10 @@
     },
     "switch": {
         "message": "Active/Disable the Fast Hunt Mode", 
-        "description": "Message showed when hove the app's switch"
+        "description": "Message showed when hover the app's switch"
+    },
+    "clickToCopy": {
+        "message": "Click to Copy",
+        "description": "Message showed when hover the result pos" 
     }
 }

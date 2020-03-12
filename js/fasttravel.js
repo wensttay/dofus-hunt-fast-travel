@@ -1,3 +1,9 @@
+var cords = document.getElementById('secondLine');
+cords.style.cursor = 'pointer';
+cords.addEventListener('click', function(){
+    copyToClipboard();
+});
+
 document.getElementById('hint').appendChild(switchDiv);
 document.getElementById('hintName').addEventListener('change', function() {
     copyToClipboard();
