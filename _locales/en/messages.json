@@ -8,11 +8,11 @@
         "description": "The app description"
     },
     "pastepos": {
-        "message": "You can paste on [x,y] format", 
+        "message": "Paste your position here", 
         "description": "Messages showed when hover an input location"
     },
     "switch": {
-        "message": "Active/Disable Dofus Hunt Tools", 
+        "message": "Active/Disable the Fast Hunt Mode", 
         "description": "Message showed when hove the app's switch"
     }
 }

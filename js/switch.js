@@ -8,7 +8,7 @@ switchLabel.title = chrome.i18n.getMessage("switch");
 
 var switchInput = document.createElement('input');
 switchInput.type = 'checkbox';
-switchInput.checked = true;
+switchInput.checked = false;
 
 var switchSpan = document.createElement('span');
 switchSpan.classList.add('slider');

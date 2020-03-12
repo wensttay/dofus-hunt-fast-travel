@@ -8,11 +8,11 @@
         "description": "A descrição do aplicativo"
     },
     "pastepos": {
-        "message": "Você pode colar no formato [x,y]", 
+        "message": "Cole sua posição aqui", 
         "description": "Mensagem mostrada quando o mouse se posicionar em cima dos inputs de posição"
     },
     "switch": {
-        "message": "Ativar/Desativar o Dofus Hunt Tools", 
+        "message": "Ativar/Desativar o Modo Fast Travel", 
         "description": "Mensagem mostrada quando o mouse se posiciona em cima do checkbox da aplicação"
     }
 }

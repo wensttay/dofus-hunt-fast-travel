@@ -1,8 +1,6 @@
 document.getElementById('hint').appendChild(switchDiv);
 document.getElementById('hintName').addEventListener('change', function() {
-    if (switchInput.checked) {
-        copyToClipboard();
-    }
+    copyToClipboard();
 });
 
 // The extension doesn't have access to page variables
@@ -10,12 +8,18 @@ document.getElementById('hintName').addEventListener('change', function() {
 function copyToClipboard() {
     let cords = document.getElementById('secondLine')
         .innerHTML
-        .split("[").join("")
-        .split("]").join("")
         .split("<span>").join("")
         .split("</span>").join("")
-        .split(" ").join("")
-        .split(";").join(" ");
+        .split(" ").join("");
+        
+    if (switchInput.checked) {
+        cords = cords.split("[").join("")
+            .split("]").join("")
+            .split(";").join(" ");
+        cords = "/travel " + cords;
+    } else {
+        cords = cords.split(";").join(",");
+    }
 
-    navigator.clipboard.writeText("/travel " + cords);
+    navigator.clipboard.writeText(cords);
 };
