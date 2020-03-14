@@ -27,8 +27,8 @@ separator.parentNode.insertBefore(xDiv, separator);
 separator.parentNode.insertBefore(yDiv, separator.nextSibling);
 
 // Adding tooltip on result pos
-cords.addEventListener('mouseover', function(){
-    addTooltip(document.getElementById('secondLine'), chrome.i18n.getMessage("clickToCopy"));
+document.getElementById('secondLine').addEventListener('mouseover', function(){
+    addTooltip(this, chrome.i18n.getMessage("clickToCopy"));
 });
 
 function addTooltip(element, text) {
