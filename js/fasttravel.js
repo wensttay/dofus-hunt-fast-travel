@@ -1,6 +1,28 @@
-var cords = document.getElementById('secondLine');
-cords.style.cursor = 'pointer';
-cords.addEventListener('click', function(){
+var switchDiv = document.createElement('div');
+switchDiv.classList.add('switch-box');
+
+var switchLabel = document.createElement('label');
+switchLabel.id = 'switch';
+switchLabel.classList.add('switch');
+switchLabel.title = chrome.i18n.getMessage("switch");
+
+var switchInput = document.createElement('input');
+switchInput.type = 'checkbox';
+switchInput.checked = false;
+
+var switchSpan = document.createElement('span');
+switchSpan.classList.add('slider');
+switchSpan.classList.add('round');
+
+switchLabel.appendChild(switchInput);
+switchLabel.appendChild(switchSpan);
+switchDiv.appendChild(switchLabel);
+
+switchInput.addEventListener('change', function() {
+    copyToClipboard();
+})
+
+document.getElementById('secondLine').addEventListener('click', function(){
     copyToClipboard();
 });
 
@@ -27,5 +49,10 @@ function copyToClipboard() {
         cords = cords.split(";").join(",");
     }
 
-    navigator.clipboard.writeText(cords);
+    let end = cords.indexOf('<labelclass="tooltiptext">');
+    if (end != -1) {
+        navigator.clipboard.writeText(cords.substring(0, end));
+    } else {
+        navigator.clipboard.writeText(cords);
+    }
 };

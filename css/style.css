@@ -1,0 +1,10 @@
+
+#secondLine {
+    width: 100%;
+    cursor: pointer;
+    color: rgb(204, 204, 204, 0.6) !important;
+}
+
+#secondLine:hover {
+    color: rgb(204, 204, 204, 1) !important;
+}

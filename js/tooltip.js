@@ -26,6 +26,11 @@ var separator = document.getElementById('semiColon');
 separator.parentNode.insertBefore(xDiv, separator);
 separator.parentNode.insertBefore(yDiv, separator.nextSibling);
 
+// Adding tooltip on result pos
+cords.addEventListener('mouseover', function(){
+    addTooltip(document.getElementById('secondLine'), chrome.i18n.getMessage("clickToCopy"));
+});
+
 function addTooltip(element, text) {
     element.classList.add('tooltip');
 

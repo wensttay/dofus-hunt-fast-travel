@@ -9,13 +9,13 @@
         {
             "css": [
                 "css/toggle-switch.css",
-                "css/tooltip.css"
+                "css/tooltip.css",
+                "css/style.css"
             ],
             "matches": [
                 "https://dofus-map.com/*/hunt"
             ],
             "js": [
-                "js/switch.js",
                 "js/fasttravel.js",
                 "js/pastepos.js",
                 "js/tooltip.js"
