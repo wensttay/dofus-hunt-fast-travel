@@ -13,6 +13,7 @@
                 "css/style.css"
             ],
             "matches": [
+                "https://dofus-map.com/hunt",
                 "https://dofus-map.com/*/hunt"
             ],
             "js": [
