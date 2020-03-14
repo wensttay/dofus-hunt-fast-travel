@@ -1,0 +1,22 @@
+{
+    "appName": {
+        "message": "Dofus Hunt Tools",
+        "description": "Le nom de l'application"
+    },
+    "appDesc": {
+        "message": "Fournit certaines fonctionnalités pour le site Web Dofus Hunt qui rendent la chasse plus facile et plus rapide", 
+        "description": "La description de l'application"
+    },
+    "pastepos": {
+        "message": "Collez votre position ici", 
+        "description": "Message affiché lorsque la souris est positionnée sur les entrées de position"
+    },
+    "switch": {
+        "message": "Activer/désactiver le mode de déplacement rapide", 
+        "description": "Message affiché lorsque la souris est positionnée au-dessus de la case à cocher de l'application"
+    },
+    "clickToCopy": {
+        "message": "Cliquez pour copier",
+        "description": "Message affiché lorsque la souris est positionnée sur la position de résultat" 
+    }
+}
