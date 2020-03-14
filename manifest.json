@@ -3,7 +3,7 @@
     "version": "1.4.1",
     "name": "__MSG_appName__",
     "description": "__MSG_appDesc__",
-    "default_locale": "pt_BR",
+    "default_locale": "en",
 
     "content_scripts": [
         {
