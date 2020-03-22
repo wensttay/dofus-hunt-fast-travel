@@ -1,4 +1,4 @@
-var posRegex = new RegExp(/-?([1-9][0-9][0-9]|[1-9][0-9]|[1-9])/g);
+var posRegex = new RegExp(/-?([1-9][0-9][0-9]|[1-9][0-9]|[0-9])/g);
 var x = document.getElementById('x');
 var y = document.getElementById('y');
 
