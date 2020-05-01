@@ -37,11 +37,14 @@ document.getElementById('autoCompleteDiv').addEventListener('mouseover', functio
 });
 
 function addTooltip(element, text) {
+    let t = element.querySelector('.tooltiptext');
+    if (t) return;
+
     element.classList.add('tooltip');
 
     let tooltipText = document.createElement('label');
     tooltipText.classList.add('tooltiptext');
     tooltipText.innerHTML = text;
-
+    
     element.appendChild(tooltipText);
 }
