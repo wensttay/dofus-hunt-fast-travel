@@ -7,7 +7,7 @@
 /* The switch - the box around the slider */
 .switch {
     float: right;
-    top: -65px;
+    top: 10px;
     position: relative;
     width: 54px;
     height: 28px;

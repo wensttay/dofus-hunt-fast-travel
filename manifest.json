@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "version": "1.5.2",
+    "version": "1.6",
     "name": "__MSG_appName__",
     "description": "__MSG_appDesc__",
     "default_locale": "en",
@@ -10,7 +10,8 @@
             "css": [
                 "css/toggle-switch.css",
                 "css/tooltip.css",
-                "css/style.css"
+                "css/style.css",
+                "css/autocomplete.css"
             ],
             "matches": [
                 "https://dofus-map.com/hunt",
@@ -19,7 +20,8 @@
             "js": [
                 "js/fasttravel.js",
                 "js/pastepos.js",
-                "js/tooltip.js"
+                "js/tooltip.js",
+                "js/autocomplete.js"
             ]
         }
     ],
