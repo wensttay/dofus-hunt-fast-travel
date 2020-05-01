@@ -9,9 +9,9 @@
         {
             "css": [
                 "css/toggle-switch.css",
+                "css/autocomplete.css",
                 "css/tooltip.css",
-                "css/style.css",
-                "css/autocomplete.css"
+                "css/style.css"
             ],
             "matches": [
                 "https://dofus-map.com/hunt",
@@ -20,8 +20,8 @@
             "js": [
                 "js/fasttravel.js",
                 "js/pastepos.js",
-                "js/tooltip.js",
-                "js/autocomplete.js"
+                "js/autocomplete.js",
+                "js/tooltip.js"
             ]
         }
     ],

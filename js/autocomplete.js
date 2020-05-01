@@ -1,10 +1,10 @@
 var autocompleteDiv = document.createElement('div');
+autocompleteDiv.id = 'autoCompleteDiv';
 autocompleteDiv.classList.add('autocomplete');
 
 var autocompleteInput = document.createElement('input');
 autocompleteInput.type = 'text';
-autocompleteInput.name = 'myCountry';
-autocompleteInput.id = 'myInput';
+autocompleteInput.id = 'autoCompleteInput';
 autocompleteInput.autocomplete = 'off';
 autocompleteInput.disabled = true;
 autocompleteInput.placeholder = document.getElementById('hintName').options[0].text;
@@ -17,7 +17,7 @@ document.getElementById('closeBottomBox').style = 'display: none;';
 document.getElementById('bottomBox').style = 'display: none;';
 
 var hints = [];
-autocomplete(document.getElementById("myInput"), hints);
+autocomplete(autocompleteInput, hints);
 
 document.getElementById('directions').addEventListener('click', function() {
     checkResultClassName(100, updateAutoComplete);
@@ -145,8 +145,14 @@ function autocomplete(inp, arr) {
             let x = document.getElementById(this.id + "autocomplete-list");
             if (x) x = x.getElementsByTagName("div");
             if (e.keyCode == 40) {
+                
+                if (autocompleteInput.value != '' && x == null) {
+                    autocompleteInput.dispatchEvent(new Event('click'));
+                }
+
                 /*If the arrow DOWN key is pressed, increase the currentFocus variable:*/
                 currentFocus++;
+                
                 /*and and make the current item more visible:*/
                 addActive(x);
                 

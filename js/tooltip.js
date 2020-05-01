@@ -31,6 +31,11 @@ document.getElementById('secondLine').addEventListener('mouseover', function(){
     addTooltip(this, chrome.i18n.getMessage("clickToCopy"));
 });
 
+// Adding tooltip on auto complete input
+document.getElementById('autoCompleteDiv').addEventListener('mouseover', function() {
+    addTooltip(this, chrome.i18n.getMessage("typeAndSearch"));
+});
+
 function addTooltip(element, text) {
     element.classList.add('tooltip');
 

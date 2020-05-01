@@ -9,14 +9,18 @@
     },
     "pastepos": {
         "message": "Paste your position here", 
-        "description": "Messages showed when hover an input location"
+        "description": "Messages shown when hover an input location"
     },
     "switch": {
         "message": "Active/Disable the Fast Hunt Mode", 
-        "description": "Message showed when hover the app's switch"
+        "description": "Message shown when hover the app's switch"
     },
     "clickToCopy": {
         "message": "Click to Copy",
-        "description": "Message showed when hover the result pos" 
+        "description": "Message shown when hover the result pos" 
+    },
+    "typeAndSearch": {
+        "message": "Type and Search a Hint",
+        "description": "Message shown when hover the autocomplete hint input"
     }
 }

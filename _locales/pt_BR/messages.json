@@ -18,5 +18,9 @@
     "clickToCopy": {
         "message": "Clique para Copiar",
         "description": "Mensagem mostrada quando o mouse se posiciona em cima da posição resultado" 
+    },
+    "typeAndSearch": {
+        "message": "Digite para Pesquisar uma Dica",
+        "description": "Mensagem mostrada quando o mouse se posiciona em cima do campo de busca de dicas"
     }
 }

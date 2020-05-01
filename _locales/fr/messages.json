@@ -18,5 +18,9 @@
     "clickToCopy": {
         "message": "Cliquez pour copier",
         "description": "Message affiché lorsque la souris est positionnée sur la position de résultat" 
+    },
+    "typeAndSearch": {
+        "message": "Tapez pour rechercher un conseil",
+        "description": "Message affiché lorsque la souris est positionnée sur le champ de recherche d'indices"
     }
 }
