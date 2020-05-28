@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "version": "1.6",
+    "version": "1.7",
     "name": "__MSG_appName__",
     "description": "__MSG_appDesc__",
     "default_locale": "en",
@@ -19,6 +19,7 @@
             ],
             "js": [
                 "js/fasttravel.js",
+                "js/hidead.js",
                 "js/pastepos.js",
                 "js/autocomplete.js",
                 "js/tooltip.js"

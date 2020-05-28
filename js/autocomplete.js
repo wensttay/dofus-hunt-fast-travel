@@ -14,7 +14,6 @@ autocompleteDiv.appendChild(autocompleteInput);
 document.getElementById('hint').appendChild(autocompleteDiv);
 document.getElementById('hintName').style = 'display: none;';
 document.getElementById('closeBottomBox').style = 'display: none;';
-document.getElementById('bottomBox').style = 'display: none;';
 
 var hints = [];
 autocomplete(autocompleteInput, hints);
@@ -46,6 +45,8 @@ function updateAutoComplete() {
     autocompleteInput.value = '';
     autocompleteInput.placeholder = document.getElementById('hintName').options[0].text;
     autocomplete(autocompleteInput, hints);
+    autocompleteInput.click();
+    autocompleteInput.focus();
 }
 
 function normatize(str) {

@@ -1,7 +1,17 @@
 
 .switch-box {
     margin: 0 auto;
+}
+
+.switch-box-ft {
     width: 400px;
+}
+
+.switch-box-ad {
+    width: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
 
 /* The switch - the box around the slider */

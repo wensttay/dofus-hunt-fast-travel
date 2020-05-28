@@ -15,6 +15,14 @@
         "message": "Active/Disable the Fast Hunt Mode", 
         "description": "Message shown when hover the app's switch"
     },
+    "switch_ad": {
+        "message": "Show/Hide the AdSense", 
+        "description": "Message shown when hover the AdSense's switch"
+    },
+    "switch_ad_alert": {
+        "message": "To hide this advertisement it is necessary to click on it once! ;)", 
+        "description": "Message shown when trying to disable advertising without having clicked on it."
+    },
     "clickToCopy": {
         "message": "Click to Copy",
         "description": "Message shown when hover the result pos" 

@@ -15,6 +15,14 @@
         "message": "Activer/désactiver le mode de déplacement rapide", 
         "description": "Message affiché lorsque la souris est positionnée au-dessus de la case à cocher de l'application"
     },
+    "switch_ad": {
+        "message": "Afficher/Masquer AdSense", 
+        "description": "Message affiché lors du survol du commutateur AdSense"
+    },
+    "switch_ad_alert": {
+        "message": "Pour masquer cette annonce il faut cliquer une fois dessus! ;)", 
+        "description": "Message affiché lorsque vous essayez de désactiver la publicité sans avoir cliqué dessus."
+    },
     "clickToCopy": {
         "message": "Cliquez pour copier",
         "description": "Message affiché lorsque la souris est positionnée sur la position de résultat" 

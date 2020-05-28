@@ -48,3 +48,6 @@ function addTooltip(element, text) {
     
     element.appendChild(tooltipText);
 }
+
+// Adding tooltip on Switch Fast Travel
+addTooltip(document.getElementById('switchAd'), chrome.i18n.getMessage("switch_ad"));

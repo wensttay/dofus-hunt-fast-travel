@@ -15,6 +15,14 @@
         "message": "Ativar/Desativar o Modo Fast Travel", 
         "description": "Mensagem mostrada quando o mouse se posiciona em cima do checkbox da aplicação"
     },
+    "switch_ad": {
+        "message": "Mostrar/Esconder a Propaganda", 
+        "description": "Mensagem mostrada quando o mouse se posiciona em cima do checkbox de Propagandas"
+    },
+    "switch_ad_alert": {
+        "message": "Para poder esconder essa propaganda é necessário clicar 1 vez na nela ! ;)", 
+        "description": "Mensagem mostrada quando se tenta desabilitar a propaganda sem ter clicado na mesma."
+    },
     "clickToCopy": {
         "message": "Clique para Copiar",
         "description": "Mensagem mostrada quando o mouse se posiciona em cima da posição resultado" 

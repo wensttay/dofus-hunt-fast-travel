@@ -1,6 +1,7 @@
 // SWITCH
 var switchDiv = document.createElement('div');
 switchDiv.classList.add('switch-box');
+switchDiv.classList.add('switch-box-ft');
 
 var switchLabel = document.createElement('label');
 switchLabel.id = 'switch';
