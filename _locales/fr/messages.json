@@ -4,7 +4,7 @@
         "description": "Le nom de l'application"
     },
     "appDesc": {
-        "message": "Fournit certaines fonctionnalités pour le site Web Dofus Hunt qui rendent la chasse plus facile et plus rapide", 
+        "message": "Fournit des fonctionnalités supplémentaires au site Web Dofus Treasure Hunt, ce qui rend les chasses plus faciles et plus rapides.", 
         "description": "La description de l'application"
     },
     "pastepos": {

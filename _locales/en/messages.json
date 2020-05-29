@@ -4,7 +4,7 @@
         "description": "The app name"
     },
     "appDesc": {
-        "message": "Provide some functions to the Dafus Hunt Webside thats make the hunt more easy and fast", 
+        "message": "Provides additional functionality to the Dofus Treasure Hunt Website, making hunts easier and faster.", 
         "description": "The app description"
     },
     "pastepos": {
